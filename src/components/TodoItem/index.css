@@ -1,0 +1,64 @@
+/* Write your CSS here */
+.todo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.paragraph {
+  color: black;
+  font-size: 25px;
+  flex-grow: 1;
+}
+.button {
+  height: 50px;
+  width: 100px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid #ff0b37;
+  color: #ff0b37;
+  font-size: 20px;
+  margin: 10px;
+}
+.edit-button {
+  height: 50px;
+  width: 100px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid blue;
+  color: blue;
+  font-size: 20px;
+  margin: 10px;
+}
+.save-button {
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  border: 0px;
+  color: white;
+  font-size: 20px;
+  margin: 10px;
+  background-color: blue;
+}
+.checkbox {
+  width: 20px;
+  height: 20px;
+  accent-color: #4caf50;
+  margin-right: 20px;
+}
+.through-line {
+  text-decoration: line-through;
+}
+.no-line {
+  text-decoration: none;
+}
+.update-text {
+  height: 40px;
+  width: 350px;
+  border-radius: 10px;
+  padding: 5px;
+}
+.input-save-container {
+  display: flex;
+  align-items: center;
+}

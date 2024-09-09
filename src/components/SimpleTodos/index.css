@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffc2a0;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: white;
+  border-width: 0px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 70%;
+}
+.title {
+  color: #ffc2a0;
+  font-size: 45px;
+  text-align: center;
+}
+.list-container {
+  padding: 20px;
+}
+.input {
+  height: 40px;
+  width: 350px;
+  border-radius: 13px;
+  padding: 5px;
+}
+.add-button {
+  background-color: blue;
+  font-size: 20px;
+  color: white;
+  height: 40px;
+  width: 100px;
+  border-radius: 9px;
+  border-width: 0px;
+  margin-left: 20px;
+}
+.input-add-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
